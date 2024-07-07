@@ -36,7 +36,7 @@ fauxmoESP fauxmo;
     pinMode(GPIO_TX, OUTPUT);     //#define GPIO_TX    1
 
     // Add virtual devices
-    fauxmo.addDevice(ID_);        
+            
     fauxmo.addDevice(ID_LED);      //#define ID_LED       "pin2"
     fauxmo.addDevice(ID_GPIORX);   //#define ID_GPIORX    "pin3"
     fauxmo.addDevice(ID_GPIOTX);   //#define ID_GPIORX    "pin1"
