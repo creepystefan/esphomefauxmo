@@ -3,7 +3,7 @@
 #include <Arduino.h>
 
 
-fauxmoESP fauxmo;
+
 
 #define SERIAL_BAUDRATE     115200
 
@@ -16,6 +16,7 @@ fauxmoESP fauxmo;
 
 class MyCustomSensor : public Component, public Sensor {
  public:
+fauxmoESP fauxmo;
   void setup() override {
    
     // Init serial port and clean garbage
