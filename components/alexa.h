@@ -3,7 +3,7 @@
 #include <Arduino.h>
 
 
-using namespace alexaesp;
+
 
 #define SERIAL_BAUDRATE     115200
 
