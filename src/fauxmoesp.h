@@ -72,7 +72,7 @@ THE SOFTWARE.
 //#include <WiFiUdp.h>
 #include <functional>
 #include <vector>
-#include <MD5Builder.h>
+//#include <MD5Builder.h>
 #include "templates.h"
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
