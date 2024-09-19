@@ -61,7 +61,7 @@ THE SOFTWARE.
     #include <ESP8266WiFi.h>
     #include <ESPAsyncTCP.h>
 #elif defined(ESP32)
-    #include "WiFi.h"
+   // #include "WiFi.h"
     #include "AsyncTCP.h"
 #elif defined(ARDUINO_RASPBERRY_PI_PICO_W)
     #include <AsyncTCP_RP2040W.h>
