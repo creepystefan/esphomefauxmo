@@ -20,16 +20,11 @@ fauxmoESP fauxmo;
   void setup() override {
    
     // Init serial port and clean garbage
-    Serial.begin(SERIAL_BAUDRATE);
-    Serial.println();
-    Serial.println();
+   // Serial.begin(SERIAL_BAUDRATE);
+   // Serial.println();
+   // Serial.println();
 
-   // Wifi
-    //wifiSetup();
-    fauxmo.createServer(true); // not needed, this is the default value
-    fauxmo.setPort(80); // This is required for gen3 devices
-    fauxmo.enable(true);
-    
+      
     // LEDs
     pinMode(LED, OUTPUT);         //#define LED        2
     pinMode(GPIO_RX, OUTPUT);     //#define GPIO_RX    3
