@@ -27,7 +27,7 @@ THE SOFTWARE.
 //#include <Arduino.h>
 */
 
-#include "fauxmoESP.h"
+#include "fauxmoESP2.h"
 
 // -----------------------------------------------------------------------------
 // UDP
