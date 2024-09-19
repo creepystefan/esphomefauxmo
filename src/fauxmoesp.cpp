@@ -26,7 +26,7 @@ THE SOFTWARE.
 //#include "esphome.h"
 //#include <Arduino.h>
 */
-
+#include <Arduino.h>
 #include "fauxmoESP.h"
 
 // -----------------------------------------------------------------------------
