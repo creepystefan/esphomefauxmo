@@ -25,7 +25,7 @@ fauxmoESP fauxmo;
     Serial.println();
 
    // Wifi
-    wifiSetup();
+    //wifiSetup();
     fauxmo.createServer(true); // not needed, this is the default value
     fauxmo.setPort(80); // This is required for gen3 devices
     fauxmo.enable(true);
