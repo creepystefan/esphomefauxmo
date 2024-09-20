@@ -1,5 +1,5 @@
 #include "esphome.h"
-#include "fauxmoESP2.h"
+#include "fauxmoESP.h"
 #include <Arduino.h>
 
 #define SERIAL_BAUDRATE     115200
