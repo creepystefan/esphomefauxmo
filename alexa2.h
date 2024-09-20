@@ -2,9 +2,6 @@
 #include "fauxmoESP2.h"
 #include <Arduino.h>
 
-
-
-
 #define SERIAL_BAUDRATE     115200
 
 #define LED                 2
