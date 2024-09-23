@@ -73,4 +73,4 @@ public:
 
 extern WiFiClass WiFi;
 
-#endif /* SOC_WIFI_SUPPORTED */
+//#endif /* SOC_WIFI_SUPPORTED */
