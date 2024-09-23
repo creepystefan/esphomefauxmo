@@ -61,7 +61,7 @@ THE SOFTWARE.
     #include <ESP8266WiFi.h>
     #include <ESPAsyncTCP.h>
 #elif defined(ESP32)
-//    #include <WiFi.h>
+    #include <WiFi.h>
     #include <AsyncTCP.h>
 #elif defined(ARDUINO_RASPBERRY_PI_PICO_W)
     #include <AsyncTCP_RP2040W.h>
@@ -69,10 +69,10 @@ THE SOFTWARE.
 	#error Platform not supported
 #endif
 
-//#include <WiFiUdp.h>
+#include <WiFiUdp.h>
 #include <functional>
 #include <vector>
-//#include <MD5Builder.h>
+#include <MD5Builder.h>
 #include "templates.h"
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
