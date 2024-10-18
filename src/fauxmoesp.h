@@ -55,9 +55,10 @@ THE SOFTWARE.
 #define DEBUG_FAUXMO_VERBOSE_UDP    false
 #endif
 
+#include "esphome.h"
 #include <Arduino.h>
 //#include <WiFi.h>
-#include <AsyncTCP.h>
+//#include <AsyncTCP.h>
 //#include <WiFiUdp.h>
 #include <functional>
 #include <vector>
