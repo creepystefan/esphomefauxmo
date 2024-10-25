@@ -7,11 +7,10 @@
 #include "fauxmoESP.h"
 #include <Arduino.h>
 
-
-
+namespace esphome {
+namespace myalexa { 
 
 #define SERIAL_BAUDRATE     115200
-
 #define LED                 2
 #define GPIO_RX             3
 #define GPIO_TX             1
@@ -74,3 +73,6 @@ fauxmoESP fauxmo;
     }
   }
 };
+
+}  // namespace myalexa
+}  // namespace esphome
