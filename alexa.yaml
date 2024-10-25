@@ -3,10 +3,7 @@ external_components:
   
 esphome:
   name: alexatest
-  
-  includes:
-   - .esphome/external_components/7df482cd/alexa.h
-     
+       
   libraries:
         
     - alexaweenymo=https://github.com/creepystefan/esphomefauxmo
@@ -41,21 +38,5 @@ wifi:
  
  
 captive_portal:
-
-#custom_component:
-#- lambda: |-
-#    auto my_custom = new MyCustomComponent();
-#    return {my_custom};
-#  components:
-#  - id: my_custom_id
-
-sensor:
-- platform: custom
-  lambda: |-
-    auto my_sensor = new MyCustomSensor();
-    App.register_component(my_sensor);
-    return {my_sensor};
-
-  sensors:
-    name: "My Custom Sensor"
     
+myalexa:
