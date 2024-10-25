@@ -1,9 +1,13 @@
+#pragma once
+
+#include "esphome/core/component.h"
 #include "esphome.h"
-//#ifdef ESP32
-//    #include <WiFi.h>
-//#else
-//    #include <ESP8266WiFi.h>
-//#endif
+
+#ifdef ESP32
+    #include <WiFi.h>
+#else
+    #include <ESP8266WiFi.h>
+#endif
 #include "fauxmoESP.h"
 #include <Arduino.h>
 
