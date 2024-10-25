@@ -18,7 +18,7 @@ namespace myalexa {
 #define ID_GPIORX           "pin3"
 #define ID_GPIOTX           "pin1"
 
-class MyCustomSensor : public Component, public Sensor {
+class MYALEXA : public Component {
  public:
 fauxmoESP fauxmo;
   void setup() override {
