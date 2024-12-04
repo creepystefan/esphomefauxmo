@@ -7,7 +7,7 @@ cg.add_library(
     repository="https://github.com/creepystefan/esphomefauxmo",
     version=None,
 
-myalexa_ns = cg.esphome_ns.namespace("realdash")
+myalexa_ns = cg.esphome_ns.namespace("myalexa")
 MYALEXA = myalexa_ns.class_("MYALEXA", cg.Component)
 
 CONFIG_SCHEMA = cv.Schema(
