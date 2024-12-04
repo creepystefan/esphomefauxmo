@@ -6,6 +6,7 @@ cg.add_library(
     name="ESPFauxmo",
     repository="https://github.com/creepystefan/esphomefauxmo",
     version=None,
+)
 
 myalexa_ns = cg.esphome_ns.namespace("myalexa")
 MYALEXA = myalexa_ns.class_("MYALEXA", cg.Component)
