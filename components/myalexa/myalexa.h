@@ -9,7 +9,7 @@
     #include <ESP8266WiFi.h>
 #endif
 #include "fauxmoESP.h"
-#include <Arduino.h>
+//#include <Arduino.h>
 
 namespace esphome {
 namespace myalexa { 
