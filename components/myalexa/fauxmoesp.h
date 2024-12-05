@@ -62,7 +62,7 @@ THE SOFTWARE.
 #include <WiFiUdp.h>
 #include <functional>
 #include <vector>
-#include <MD5Builder.h>
+//#include <MD5Builder.h>
 #include "templates.h"
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
@@ -126,5 +126,5 @@ class fauxmoESP {
         void _sendTCPResponse(AsyncClient *client, const char * code, char * body, const char * mime);
 
         String _byte2hex(uint8_t zahl);
-        String _makeMD5(String text);
+        //String _makeMD5(String text);
 };
