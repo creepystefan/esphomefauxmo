@@ -33,7 +33,7 @@ THE SOFTWARE.
 #include "esphome/core/helpers.h"
 
 namespace esphome {
-namespace myalexa {
+namespace fauxmoesp {
 
 // -----------------------------------------------------------------------------
 // UDP
@@ -582,5 +582,5 @@ void fauxmoESP::enable(bool enable) {
 	}
 
 }
-}  // namespace myalexa
+}  // namespace fauxmoesp
 }  // namespace esphome
