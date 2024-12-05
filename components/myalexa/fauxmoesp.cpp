@@ -32,8 +32,7 @@ THE SOFTWARE.
 #include "esphome/core/log.h"
 #include "esphome/core/helpers.h"
 
-namespace esphome {
-namespace fauxmoesp {
+
 
 // -----------------------------------------------------------------------------
 // UDP
@@ -582,5 +581,4 @@ void fauxmoESP::enable(bool enable) {
 	}
 
 }
-}  // namespace fauxmoesp
-}  // namespace esphome
+
