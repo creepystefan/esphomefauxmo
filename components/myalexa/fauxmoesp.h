@@ -29,6 +29,9 @@ THE SOFTWARE.
 
 #pragma once
 
+namespace esphome {
+namespace fauxmoesp {
+
 #define FAUXMO_UDP_MULTICAST_IP     IPAddress(239,255,255,250)
 #define FAUXMO_UDP_MULTICAST_PORT   1900
 #define FAUXMO_TCP_MAX_CLIENTS      10
@@ -128,3 +131,5 @@ class fauxmoESP {
         String _byte2hex(uint8_t zahl);
         //String _makeMD5(String text);
 };
+}  // namespace fauxmoesp
+}  // namespace esphome
