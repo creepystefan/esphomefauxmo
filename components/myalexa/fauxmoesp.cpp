@@ -153,23 +153,23 @@ String fauxmoESP::_byte2hex(uint8_t zahl)
   return hstring;
 }
 
-String fauxmoESP::_makeMD5(String text)
-{
-  unsigned char bbuf[16];
-  String hash = "";
-  MD5Builder md5;
-  md5.begin();
-  md5.add(text);
-  md5.calculate();
+//String fauxmoESP::_makeMD5(String text)
+//{
+//  unsigned char bbuf[16];
+//  String hash = "";
+//  MD5Builder md5;
+//  md5.begin();
+//  md5.add(text);
+//  md5.calculate();
   
-  md5.getBytes(bbuf);
-  for (uint8_t i = 0; i < 16; i++)
-  {
-    hash += _byte2hex(bbuf[i]);
-  }
+//  md5.getBytes(bbuf);
+//  for (uint8_t i = 0; i < 16; i++)
+//  {
+//    hash += _byte2hex(bbuf[i]);
+//  }
 
-  return hash;
-}
+//  return hash;
+//}
 
 bool fauxmoESP::_onTCPDescription(AsyncClient *client, String url, String body) {
 
