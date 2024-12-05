@@ -29,6 +29,9 @@ THE SOFTWARE.
 #include <Arduino.h>
 #include "fauxmoESP.h"
 
+namespace esphome {
+namespace myalexa {
+
 // -----------------------------------------------------------------------------
 // UDP
 // -----------------------------------------------------------------------------
@@ -576,3 +579,5 @@ void fauxmoESP::enable(bool enable) {
 	}
 
 }
+}  // namespace myalexa
+}  // namespace esphome
