@@ -26,8 +26,11 @@ THE SOFTWARE.
 //#include "esphome.h"
 //#include <Arduino.h>
 */
-#include <Arduino.h>
+//#include <Arduino.h>
 #include "fauxmoESP.h"
+
+#include "esphome/core/log.h"
+#include "esphome/core/helpers.h"
 
 namespace esphome {
 namespace myalexa {
