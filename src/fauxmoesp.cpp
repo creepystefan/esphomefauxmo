@@ -29,11 +29,6 @@ THE SOFTWARE.
 //#include <Arduino.h>
 //#include "fauxmoESP.h"
 
-
-
-namespace esphome {
-namespace myalexa {
-#include "esphome.h"
 #include "fauxmoESP.h"
 
 // -----------------------------------------------------------------------------
@@ -584,5 +579,4 @@ void fauxmoESP::enable(bool enable) {
 
 }
 
-}  // namespace fauxmoesp
-}  // namespace esphome
+
