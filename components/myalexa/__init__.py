@@ -2,13 +2,14 @@ import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome.const import CONF_ID
 
-cg.add_library(
-    name="ESPFauxmo",
-    repository="https://github.com/creepystefan/esphomefauxmo",
-    version=None,
-)
+#cg.add_library(
+#    name="ESPFauxmo",
+#    repository="https://github.com/creepystefan/esphomefauxmo",
+#    version=None,
+#)
 #cg.add_library('esphome/AsyncTCP-esphome@^2.1.4', '')
-cg.add_library('me-no-dev/AsyncTCP', '')
+#cg.add_library('me-no-dev/AsyncTCP', '')
+cg.add_library('vintlabs/FauxmoESP', '3.4.1')
 
 
 
