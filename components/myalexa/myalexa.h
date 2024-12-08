@@ -11,7 +11,7 @@
 #include <Arduino.h>
 #include "AsyncTCP.h"
 #include "fauxmoESP.h"
-//#include <WiFi.h>
+#include <WiFi.h>
 
 
 namespace esphome {
