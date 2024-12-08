@@ -2,11 +2,11 @@ import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome.const import CONF_ID
 
-#cg.add_library(
-#    name="ESPFauxmo",
-#    repository="https://github.com/creepystefan/esphomefauxmo",
-#    version=None,
-#)
+cg.add_library(
+    name="ESPFauxmo",
+    repository="https://github.com/creepystefan/esphomefauxmo",
+    version=None,
+)
 
 myalexa_ns = cg.esphome_ns.namespace("myalexa")
 MYALEXA = myalexa_ns.class_("MYALEXA", cg.Component)
