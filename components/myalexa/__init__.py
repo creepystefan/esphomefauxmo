@@ -7,6 +7,7 @@ cg.add_library(
     repository="https://github.com/creepystefan/esphomefauxmo",
     version=None,
 )
+#cg.add_library('esphome/AsyncTCP-esphome@^2.1.4', '')
 
 myalexa_ns = cg.esphome_ns.namespace("myalexa")
 MYALEXA = myalexa_ns.class_("MYALEXA", cg.Component)
