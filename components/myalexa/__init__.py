@@ -8,7 +8,7 @@ cg.add_library(
     version=None,
 )
 #cg.add_library('esphome/AsyncTCP-esphome@^2.1.4', '')
-cg.add_library('me-no-dev/AsyncTCP', '1.1.1')
+cg.add_library('me-no-dev/AsyncTCP', '')
 
 me-no-dev/AsyncTCP@^1.1.1
 
