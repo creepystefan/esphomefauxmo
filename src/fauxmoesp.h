@@ -59,8 +59,8 @@ THE SOFTWARE.
 //#include <WiFi.h>
 #include <AsyncTCP.h>
 //#include <WiFiUdp.h>
-//#include <functional>
-//#include <vector>
+#include <functional>
+#include <vector>
 //#include <MD5Builder.h>
 #include "templates.h"
 
