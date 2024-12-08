@@ -8,6 +8,9 @@ cg.add_library(
     version=None,
 )
 #cg.add_library('esphome/AsyncTCP-esphome@^2.1.4', '')
+cg.add_library('me-no-dev/AsyncTCP', '1.1.1')
+
+me-no-dev/AsyncTCP@^1.1.1
 
 myalexa_ns = cg.esphome_ns.namespace("myalexa")
 MYALEXA = myalexa_ns.class_("MYALEXA", cg.Component)
