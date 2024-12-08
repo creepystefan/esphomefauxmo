@@ -32,7 +32,7 @@ THE SOFTWARE.
 
 
 namespace esphome {
-namespace fauxmoesp {
+namespace myalexa {
 
 // -----------------------------------------------------------------------------
 // UDP
