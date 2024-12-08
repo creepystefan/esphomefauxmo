@@ -27,7 +27,6 @@ THE SOFTWARE.
 //#include <Arduino.h>
 */
 //#include <Arduino.h>
-//#include "fauxmoESP.h"
 
 #include "fauxmoESP.h"
 
