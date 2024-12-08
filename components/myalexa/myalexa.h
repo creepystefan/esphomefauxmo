@@ -10,6 +10,7 @@
 //#endif
 //#include "fauxmoESP.h"
 //#include <Arduino.h>
+#include "AsyncTCP.h"
 
 namespace esphome {
 namespace myalexa { 
