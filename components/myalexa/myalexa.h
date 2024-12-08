@@ -8,8 +8,11 @@
 //#else
 //    #include <ESP8266WiFi.h>
 //#endif
-//#include "fauxmoESP.h"
-//#include <Arduino.h>
+#include <Arduino.h>
+#include "AsyncTCP.h"
+#include "fauxmoESP.h"
+//#include <WiFi.h>
+
 
 namespace esphome {
 namespace myalexa { 
