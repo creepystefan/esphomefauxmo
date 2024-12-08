@@ -14,7 +14,7 @@
 namespace esphome {
 namespace myalexa { 
 #include "fauxmoESP.h"
-#include <WiFi.h>
+//#include <WiFi.h>
 
 #define SERIAL_BAUDRATE     115200
 #define LED                 2
