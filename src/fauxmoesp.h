@@ -55,13 +55,13 @@ THE SOFTWARE.
 #define DEBUG_FAUXMO_VERBOSE_UDP    false
 #endif
 
-
-#include <Arduino.h>
+#include"esphome.h"
+//#include <Arduino.h>
 //#include <WiFi.h>
-#include <AsyncTCP.h>
+//#include <AsyncTCP.h>
 //#include <WiFiUdp.h>
-#include <functional>
-#include <vector>
+//#include <functional>
+//#include <vector>
 //#include <MD5Builder.h>
 #include "templates.h"
 
