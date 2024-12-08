@@ -3,23 +3,15 @@
 #include "esphome/core/component.h"
 #include "esphome.h"
 
-//#ifdef ESP32
- //   #include <WiFi.h>
-//#else
-//    #include <ESP8266WiFi.h>
-//#endif
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AsyncTCP.h"
 #include "fauxmoESP.h"
-#include <WiFi.h>
-
+#include "WiFi.h"
+#include "WiFiUdp.h"
+#include "MD5Builder.h"
 
 namespace esphome {
 namespace myalexa { 
-#include "AsyncTCP.h"
-
-#include "fauxmoESP.h"
-//#include <WiFi.h>
 
 #define SERIAL_BAUDRATE     115200
 #define LED                 2
