@@ -27,12 +27,14 @@ THE SOFTWARE.
 //#include <Arduino.h>
 */
 //#include <Arduino.h>
-#include "fauxmoESP.h"
+//#include "fauxmoESP.h"
 
 
 
 namespace esphome {
 namespace myalexa {
+#include "esphome.h"
+#include "fauxmoESP.h"
 
 // -----------------------------------------------------------------------------
 // UDP
