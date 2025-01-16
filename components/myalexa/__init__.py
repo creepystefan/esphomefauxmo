@@ -8,7 +8,7 @@ from esphome.const import CONF_ID
 #    version=None,
 #)
 #cg.add_library('esphome/AsyncTCP-esphome', '2.1.4')
-#cg.add_library('me-no-dev/AsyncTCP', '')
+cg.add_library('me-no-dev/AsyncTCP', '')
 #cg.add_library('vintlabs/FauxmoESP', '3.4.1')
 #cg.add_library('subtixx/FauxmoESP', '2.0.0')
 
