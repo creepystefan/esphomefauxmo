@@ -2,7 +2,7 @@ import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome.const import CONF_ID
 
-await cg.udp_component()
+
 #cg.add_library(
 #    name="ESPFauxmo",
 #    repository="https://github.com/creepystefan/esphomefauxmo",
@@ -30,6 +30,7 @@ CONFIG_SCHEMA = cv.Schema(
 async def to_code(config):
     var = cg.new_Pvariable(config[CONF_ID])
     await cg.register_component(var, config)
+    await cg.udp_component()
     
     
     
