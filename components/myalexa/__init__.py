@@ -8,7 +8,7 @@ cg.add_library(
     version=None,
 )
 #cg.add_library('esphome/AsyncTCP-esphome@^2.1.4', '')
-cg.add_library('me-no-dev/AsyncTCP', '')
+#cg.add_library('me-no-dev/AsyncTCP', '')
 #cg.add_library('vintlabs/FauxmoESP', '3.4.1')
 
 
