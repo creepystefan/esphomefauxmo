@@ -2,8 +2,8 @@
 
 #include "esphome/core/component.h"
 #include "esphome.h"
-#include <AsyncEventSource.h>
-#include <AsyncTCP.h>
+//#include <AsyncEventSource.h>
+//#include <AsyncTCP.h>
 #include "fauxmoESP.h"
 //#include <ESPAsyncTCP.h>
 
