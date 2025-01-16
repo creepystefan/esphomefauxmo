@@ -13,7 +13,7 @@ cg.add_library('me-no-dev/AsyncTCP', '')
 #cg.add_library('subtixx/FauxmoESP', '2.0.0')
 
 AUTO_LOAD = ["udp"]
-AUTO_LOAD = ["async_tcp"]
+#AUTO_LOAD = ["async_tcp"]
 
 myalexa_ns = cg.esphome_ns.namespace("myalexa")
 MYALEXA = myalexa_ns.class_("MYALEXA", cg.Component)
