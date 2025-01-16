@@ -56,11 +56,10 @@ THE SOFTWARE.
 #endif
 
 #include <Arduino.h>
-#include "esphome.h"
+
 //#include <AsyncEventSource.h>
 //#include <ESPAsyncTCP.h>
 //#include <AsyncTCP.h>
-#include <Arduino.h>
 //#include <WiFi.h>
 //#include <AsyncTCP.h>
 //#include <WiFiUdp.h>
