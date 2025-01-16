@@ -2,6 +2,7 @@
 
 #include "esphome/core/component.h"
 #include "esphome.h"
+#include <AsyncEventSource.h>
 #include "fauxmoESP.h"
 
 //#include "Arduino.h"
@@ -12,6 +13,7 @@
 //#include "MD5Builder.h"
 //#include "esphome\components\md5\md5.h"
 //#include <WiFiUdp.h>
+
 
 namespace esphome {
 namespace myalexa { 
