@@ -55,14 +55,15 @@ THE SOFTWARE.
 #define DEBUG_FAUXMO_VERBOSE_UDP    false
 #endif
 
+#include "esphome.h"
 //#include <Arduino.h>
 //#include <WiFi.h>
 //#include <AsyncTCP.h>
-#include <WiFiUdp.h>
+//#include <WiFiUdp.h>
 #include <functional>
 #include <vector>
 //#include <MD5Builder.h>
-#include "esphome\components\md5\md5.h"
+//#include "esphome\components\md5\md5.h"
 #include "templates.h"
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
