@@ -4,6 +4,7 @@
 #include "esphome.h"
 #include <AsyncEventSource.h>
 #include "fauxmoESP.h"
+#include <ESPAsyncTCP.h>
 
 //#include "Arduino.h"
 //#include "AsyncTCP.h"
