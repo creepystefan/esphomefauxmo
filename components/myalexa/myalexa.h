@@ -3,12 +3,14 @@
 #include "esphome/core/component.h"
 #include "esphome.h"
 
-#include "Arduino.h"
-#include "AsyncTCP.h"
+//#include "Arduino.h"
+//#include "AsyncTCP.h"
 #include "fauxmoESP.h"
-#include "WiFi.h"
-#include "WiFiUdp.h"
-#include "MD5Builder.h"
+//#include "WiFi.h"
+//#include "WiFiUdp.h"
+//#include "MD5Builder.h"
+#include "md5.h"
+#include <WiFiUdp.h>
 
 namespace esphome {
 namespace myalexa { 
