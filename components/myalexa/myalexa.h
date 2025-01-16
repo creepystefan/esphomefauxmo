@@ -9,8 +9,8 @@
 //#include "WiFi.h"
 //#include "WiFiUdp.h"
 //#include "MD5Builder.h"
-#include "esphome\components\md5\md5.h"
-#include <WiFiUdp.h>
+//#include "esphome\components\md5\md5.h"
+//#include <WiFiUdp.h>
 
 namespace esphome {
 namespace myalexa { 
