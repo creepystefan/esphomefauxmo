@@ -66,7 +66,7 @@ THE SOFTWARE.
 #include <functional>
 #include <vector>
 //#include <MD5Builder.h>
-//#include "esphome\components\md5\md5.h"
+#include "esphome\components\md5\md5.h"
 #include "templates.h"
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
