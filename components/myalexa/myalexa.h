@@ -3,9 +3,10 @@
 #include "esphome/core/component.h"
 #include "esphome.h"
 #include <AsyncEventSource.h>
+#include <AsyncTCP.h>
 #include "fauxmoESP.h"
 //#include <ESPAsyncTCP.h>
-#include <AsyncTCP.h>
+
 
 //#include "Arduino.h"
 //#include "AsyncTCP.h
@@ -13,7 +14,7 @@
 //#include "WiFi.h"
 //#include "WiFiUdp.h"
 //#include "MD5Builder.h"
-#include "esphome\components\md5\md5.h"
+//#include "esphome\components\md5\md5.h"
 //#include <WiFiUdp.h>
 
 
