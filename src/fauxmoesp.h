@@ -56,7 +56,7 @@ THE SOFTWARE.
 #endif
 
 //#include <esphome.h>
-#include <AsyncEventSource.h>
+//#include <AsyncEventSource.h>
 //#include <ESPAsyncTCP.h>
 #include <AsyncTCP.h>
 //#include <Arduino.h>
