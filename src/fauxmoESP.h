@@ -67,7 +67,6 @@ THE SOFTWARE.
 //#include <MD5Builder.h>
 //#include "esphome\components\md5\md5.h"
 #include "templates.h"
-//#include <MD5Builder.h>
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
 typedef std::function<void(unsigned char, const char *, bool, unsigned char, byte *)> TSetStateWithColorCallback;
