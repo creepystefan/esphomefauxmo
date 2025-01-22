@@ -60,7 +60,7 @@ THE SOFTWARE.
 //#include <AsyncEventSource.h>
 //#include <ESPAsyncTCP.h>
 //#include <WiFi.h>
-//#include <AsyncTCP.h>
+#include <AsyncTCP.h>
 //#include <WiFiUdp.h>
 #include <functional>
 #include <vector>
