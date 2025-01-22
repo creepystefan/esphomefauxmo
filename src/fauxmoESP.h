@@ -55,24 +55,19 @@ THE SOFTWARE.
 #endif
 
 #include <Arduino.h>
-
-#if defined(ESP8266)
-    #include <ESP8266WiFi.h>
-    #include <ESPAsyncTCP.h>
-#elif defined(ESP32)
-    #include <WiFi.h>
-    #include <AsyncTCP.h>
-#elif defined(ARDUINO_RASPBERRY_PI_PICO_W)
-    #include <AsyncTCP_RP2040W.h>
-#else
-	#error Platform not supported
-#endif
-
-#include <WiFiUdp.h>
+//#include "esphome\components\udp\udp_component.h"
+//#include <AsyncTCP.h>
+//#include <AsyncEventSource.h>
+//#include <ESPAsyncTCP.h>
+//#include <WiFi.h>
+//#include <AsyncTCP.h>
+//#include <WiFiUdp.h>
 #include <functional>
 #include <vector>
-#include <MD5Builder.h>
+//#include <MD5Builder.h>
+//#include "esphome\components\md5\md5.h"
 #include "templates.h"
+//#include <MD5Builder.h>
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
 typedef std::function<void(unsigned char, const char *, bool, unsigned char, byte *)> TSetStateWithColorCallback;
