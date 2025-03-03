@@ -57,11 +57,11 @@ THE SOFTWARE.
 
 #include <AsyncTCP.h>
 #include <Arduino.h>
-#include <WiFi.h>
 #include <functional>
 #include <vector>
 #include <MD5Builder.h>
 #include "templates.h"
+#include <WiFiUdp.h>
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
 typedef std::function<void(unsigned char, const char *, bool, unsigned char, byte *)> TSetStateWithColorCallback;
