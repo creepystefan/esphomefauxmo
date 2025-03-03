@@ -56,12 +56,14 @@ THE SOFTWARE.
 
 //#include "esphome.h"
 #include <AsyncTCP.h>
-#include "esphome\components\MD5\MD5.h"
-#include "esphome\components\udp\udp_component.h"
+#include <MD5.h>
+
+
 #include <Arduino.h>
 
 
 #include <AsyncTCP.h>
+
 //#include <AsyncEventSource.h>
 //#include <ESPAsyncTCP.h>
 //#include <WiFi.h>
