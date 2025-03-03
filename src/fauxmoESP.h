@@ -57,6 +57,7 @@ THE SOFTWARE.
 //#include "esphome.h"
 #include <AsyncTCP.h>
 #include <MD5.h>
+#include <udp_component.h>
 
 
 #include <Arduino.h>
