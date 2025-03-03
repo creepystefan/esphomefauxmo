@@ -56,7 +56,7 @@ THE SOFTWARE.
 
 #include <Arduino.h>
 //#include "esphome\components\udp\udp_component.h"
-//#include <AsyncTCP.h>
+#include <AsyncTCP.h>
 //#include <AsyncEventSource.h>
 //#include <ESPAsyncTCP.h>
 //#include <WiFi.h>
