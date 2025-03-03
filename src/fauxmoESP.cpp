@@ -28,7 +28,6 @@ THE SOFTWARE.
 
 #include <Arduino.h>
 #include "fauxmoESP.h"
-#include <AsyncTCP.h>
 
 // -----------------------------------------------------------------------------
 // UDP
