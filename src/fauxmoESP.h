@@ -54,8 +54,13 @@ THE SOFTWARE.
 #define DEBUG_FAUXMO_VERBOSE_UDP    false
 #endif
 
+#include <esphome.h>
+#include <AsyncTCP.h>
+#include "esphome\components\MD5\MD5.h"
+#include "esphome\components\udp\udp_component.h"
 #include <Arduino.h>
-//#include "esphome\components\udp\udp_component.h"
+
+
 #include <AsyncTCP.h>
 //#include <AsyncEventSource.h>
 //#include <ESPAsyncTCP.h>
