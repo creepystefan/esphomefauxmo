@@ -58,18 +58,10 @@ THE SOFTWARE.
 #include <AsyncTCP.h>
 #include <MD5.h>
 //#include <udp_component.h>
-
-
 #include <Arduino.h>
-
-//#include <ESPAsyncTCP.h>
-//#include <WiFi.h>
-//#include <AsyncTCP.h>
-//#include <WiFiUdp.h>
 #include <functional>
 #include <vector>
 //#include <MD5Builder.h>
-//#include "esphome\components\md5\md5.h"
 #include "templates.h"
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
