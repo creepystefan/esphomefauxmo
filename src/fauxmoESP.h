@@ -56,8 +56,8 @@ THE SOFTWARE.
 
 
 #include <AsyncTCP.h>
-#include <WifiUdp.h>
 #include <Wifi.h>
+#include <WifiUdp.h>
 #include <Arduino.h>
 #include <functional>
 #include <vector>
