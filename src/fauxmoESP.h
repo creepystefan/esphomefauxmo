@@ -57,7 +57,7 @@ THE SOFTWARE.
 
 #include <AsyncTCP.h>
 #include <Arduino.h>
-#include <WiFiUdp.h>
+#include <WiFi.h>
 #include <functional>
 #include <vector>
 #include <MD5Builder.h>
