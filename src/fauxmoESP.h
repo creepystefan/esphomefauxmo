@@ -54,9 +54,21 @@ THE SOFTWARE.
 #define DEBUG_FAUXMO_VERBOSE_UDP    false
 #endif
 
+#include <Arduino.h>
 
-#include <AsyncTCP.h>
-#include <Wifi.h>
+#if defined(ESP8266)
+    #error Platform not supported
+    //#include <ESP8266WiFi.h>
+    //#include <ESPAsyncTCP.h>
+#elif defined(ESP32)
+    #include <WiFi.h>
+    #include <AsyncTCP.h>
+#elif defined(ARDUINO_RASPBERRY_PI_PICO_W)
+    #include <AsyncTCP_RP2040W.h>
+#else
+	#error Platform not supported
+#endif
+
 #include <WifiUdp.h>
 #include <Arduino.h>
 #include <functional>
