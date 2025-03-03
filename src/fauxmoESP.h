@@ -61,7 +61,7 @@ THE SOFTWARE.
 #include <vector>
 #include <MD5Builder.h>
 #include "templates.h"
-#include <WiFiUdp.h>
+#include <Udp.h>
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
 typedef std::function<void(unsigned char, const char *, bool, unsigned char, byte *)> TSetStateWithColorCallback;
