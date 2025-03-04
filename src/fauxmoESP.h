@@ -56,27 +56,26 @@ THE SOFTWARE.
 #define DEBUG_FAUXMO_VERBOSE_UDP    false
 #endif
 
-#include <Arduino.h>
-
-#if defined(ESP8266)
-    #error Platform not supported
-    //#include <ESP8266WiFi.h>
-    //#include <ESPAsyncTCP.h>
-#elif defined(ESP32)
-    //#include <WiFi.h>
-    #include <AsyncTCP.h>
-#elif defined(ARDUINO_RASPBERRY_PI_PICO_W)
-    #include <AsyncTCP_RP2040W.h>
-#else
-	#error Platform not supported
-#endif
-
-//#include <WifiUdp.h>
-#include <Arduino.h>
+#include "Arduino.h"
 #include <functional>
 #include <vector>
 #include <MD5Builder.h>
 #include "templates.h"
+#include <WifiUdp.h>
+
+#if defined(ESP32) || defined(LIBRETINY)
+#include <WiFi.h>
+#include <AsyncTCP.h>
+#elif defined(ESP8266)
+#include <ESP8266WiFi.h>
+#include <ESPAsyncTCP.h>
+#else
+#error Platform not supported
+#endif
+
+
+
+
 
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
