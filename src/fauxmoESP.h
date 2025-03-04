@@ -69,7 +69,7 @@ THE SOFTWARE.
 	#error Platform not supported
 #endif
 
-#include <WifiUdp.h>
+//#include <WifiUdp.h>
 #include <Arduino.h>
 #include <functional>
 #include <vector>
