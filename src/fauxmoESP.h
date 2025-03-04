@@ -25,8 +25,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 */
+#ifndef fauxmoESP_H_
+#define fauxmoESP_H_
 
-#pragma once
+//#pragma once
 
 #define FAUXMO_UDP_MULTICAST_IP     IPAddress(239,255,255,250)
 #define FAUXMO_UDP_MULTICAST_PORT   1900
