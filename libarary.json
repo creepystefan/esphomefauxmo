@@ -4,7 +4,7 @@
     "description": "Amazon Alexa support for ESP8266, ESP32 and Raspberry Pi Pico W (Amazon Echo & Dot)",
     "repository": {
         "type": "git",
-        "url": "https://github.com/vintlabs/fauxmoESP"
+        "url": "https://github.com/creepystefan/esphomefauxmo"
     },
     "version": "3.4.1",
     "license": "MIT",
