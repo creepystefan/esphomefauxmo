@@ -19,7 +19,7 @@
     "platforms": "*",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Links2004/arduinoWebSockets.git"
+        "url": "https://github.com/creepystefan/esphomefauxmo"
     },
-    "version": "2.6.1"
+    "version": "1.2.3"
 }
