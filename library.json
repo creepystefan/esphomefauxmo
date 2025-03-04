@@ -1,0 +1,25 @@
+{
+    "authors": [
+        {
+            "maintainer": true,
+            "name": "Creepystefan",
+            "url": "https://github.com/creepystefan"
+        }
+    ],
+    "description": "Alexa for Esp Home",
+    "export": {
+        "exclude": [
+            "tests"
+        ]
+    },
+    "frameworks": "arduino",
+    "keywords": "wifi, http, web, server, client",
+    "license": "LGPL-2.1",
+    "name": "AlexaFauxmo Esp Home",
+    "platforms": "*",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Links2004/arduinoWebSockets.git"
+    },
+    "version": "2.6.1"
+}
