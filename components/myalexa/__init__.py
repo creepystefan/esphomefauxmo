@@ -4,7 +4,7 @@ from esphome.const import CONF_ID
 
 
 cg.add_library(
-    name="ESPFauxmo",
+    name="FauxmoESP",
     repository="https://github.com/creepystefan/esphomefauxmo",
     version=None,
 )
