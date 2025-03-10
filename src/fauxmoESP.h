@@ -122,8 +122,8 @@ class fauxmoESP {
 		#ifdef ESP8266
         WiFiEventHandler _handler;
 		#endif
-        LWIP_UDP _udp;
-        //WiFiUDP _udp;
+        //LWIP_UDP _udp;
+        WiFiUDP _udp;
         AsyncClient * _tcpClients[FAUXMO_TCP_MAX_CLIENTS];
         TSetStateCallback _setStateCallback = NULL;
         TSetStateWithColorCallback _setStateWithColorCallback = NULL;
