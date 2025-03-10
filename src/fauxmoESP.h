@@ -64,6 +64,7 @@ THE SOFTWARE.
 //#include <WifiUdp.h>
 
 #if defined(ESP32) || defined(LIBRETINY)
+#include "wifi_component.h"
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #elif defined(ESP8266)
