@@ -61,7 +61,7 @@ THE SOFTWARE.
 #include <vector>
 #include <MD5Builder.h>
 #include "templates.h"
-#include <WifiUdp.h>
+//#include <WifiUdp.h>
 
 #if defined(ESP32) || defined(LIBRETINY)
 #include <WiFi.h>
