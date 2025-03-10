@@ -56,7 +56,7 @@ THE SOFTWARE.
 #define DEBUG_FAUXMO_VERBOSE_UDP    false
 #endif
 
-#include "Arduino.h"
+#include <Arduino.h>
 #include <functional>
 #include <vector>
 #include <MD5Builder.h>
@@ -64,7 +64,7 @@ THE SOFTWARE.
 //#include <WifiUdp.h>
 
 #if defined(ESP32) || defined(LIBRETINY)
-#include "wifi_component.h"
+#include "esphome/components/wifi/wifi_component.h"
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #elif defined(ESP8266)
