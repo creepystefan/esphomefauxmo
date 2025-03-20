@@ -71,7 +71,7 @@ THE SOFTWARE.
 #include "lwip/udp.h"
 #include "lwip/ip_addr.h"
 #include "lwip/arch.h"
-#include <WifiUdp.h>
+//#include <WifiUdp.h>
 
 #if defined(ESP32)
 #include <AsyncTCP.h>
