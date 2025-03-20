@@ -63,18 +63,25 @@ THE SOFTWARE.
 #include <MD5Builder.h>
 #include "templates.h"
 //#include <WifiUdp.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#include "lwip/netif.h"
+#include "lwip/udp.h"
+#include "lwip/ip_addr.h"
+#include "lwip/arch.h"
 
 #if defined(ESP32)
 #include <AsyncTCP.h>
 //#include <WiFi.h>
-#include <ESPAsyncWebServer.h>
+//#include <ESPAsyncWebServer.h>
 #elif defined(ESP8266)
-#include <ESP8266WiFi.h>
+//#include <ESP8266WiFi.h>
 #include <ESPAsyncTCP.h>
-#else
-#error Platform not supported
+//#else
+//#error Platform not supported
 #endif
-
 
 typedef std::function<void(unsigned char, const char *, bool, unsigned char)> TSetStateCallback;
 typedef std::function<void(unsigned char, const char *, bool, unsigned char, byte *)> TSetStateWithColorCallback;
