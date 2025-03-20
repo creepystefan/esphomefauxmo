@@ -62,10 +62,10 @@ THE SOFTWARE.
 #include <vector>
 #include <MD5Builder.h>
 #include "templates.h"
-//#include <WifiUdp.h>
-//#include <stdint.h>
-//#include <stdlib.h>
-//#include <stdbool.h>
+#include <WifiUdp.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdbool.h>
 
 #include "lwip/netif.h"
 #include "lwip/udp.h"
