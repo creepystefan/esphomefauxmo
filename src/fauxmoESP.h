@@ -28,7 +28,7 @@ THE SOFTWARE.
 //#ifndef fauxmoESP_H_
 //#define fauxmoESP_H_
 
-//#pragma once
+#pragma once
 
 #define FAUXMO_UDP_MULTICAST_IP     IPAddress(239,255,255,250)
 #define FAUXMO_UDP_MULTICAST_PORT   1900
@@ -63,9 +63,9 @@ THE SOFTWARE.
 #include <MD5Builder.h>
 #include "templates.h"
 //#include <WifiUdp.h>
-#include <stdint.h>
-#include <stdlib.h>
-#include <stdbool.h>
+//#include <stdint.h>
+//#include <stdlib.h>
+//#include <stdbool.h>
 
 #include "lwip/netif.h"
 #include "lwip/udp.h"
