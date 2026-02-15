@@ -1,4 +1,14 @@
+```yaml
+udp:
+  listen_address: 239.255.255.250
+  port: 1900
+  on_receive:
+    then:
+      - logger.log:
+          format: "Received %s"
+          args: [format_hex_pretty(data).c_str()]
 
+```
 
 
  Received 4D.2D.53.45.41.52.43.48.20.2A.20.48.54.54.50.2F.31.2E.31.0D.
