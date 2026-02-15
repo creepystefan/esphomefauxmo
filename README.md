@@ -4,11 +4,32 @@ udp:
   port: 1900
   on_receive:
     then:
+      - lambda: |-
+          if (!data.empty() && data[0] == 0x4D && 
+               data[1] == 0x2D && data[2] == 0x53 &&
+               data[3] == 0x45 && data[4] == 0x41 &&
+               data[5] == 0x52 && data[6] == 0x43 &&
+               data[7] == 0x48 && data[8] == 0x20
+             ) {
+            ESP_LOGI("ALEXA", "alexa search M-SEARCH");
+          }
+```
+```yaml
+### for logging all searching datas
+
+udp:
+  listen_address: 239.255.255.250
+  port: 1900
+  on_receive:
+    then:
       - logger.log:
           format: "Received %s"
           args: [format_hex_pretty(data).c_str()]
-
 ```
+
+
+
+
 
 
  Received 4D.2D.53.45.41.52.43.48.20.2A.20.48.54.54.50.2F.31.2E.31.0D.
