@@ -1,4 +1,22 @@
 ```yaml
+external_components:
+   - source: my_components/alexa
+ 
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+
+logger:
+  level: DEBUG
+
+udp_mcast_debug:
+
+```
+
+
+
+```yaml
 udp:
   listen_address: 239.255.255.250
   port: 1900
