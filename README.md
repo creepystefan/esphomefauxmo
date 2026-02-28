@@ -1,7 +1,8 @@
 ```yaml
 external_components:
-   - source: my_components/alexa
- 
+   - source: github://creepystefan/esphomefauxmo
+     refresh: 0s
+
 esp32:
   board: esp32dev
   framework:
